@@ -78,20 +78,22 @@ scenarios:
           json:
             email: "test@example.com"
             password: "password123"
+```
+▶️ How To Run (Local)
 
-How To Run (Local)
-1) Install Artillery
+Install Artillery
+
 npm i -g artillery
 
-2) Run the test
+Run the test
+
 artillery run script.yaml
 
-3) Run + upload to Artillery Cloud (optional)
+Run + upload to Artillery Cloud (optional)
+
 artillery run script.yaml --record --key <YOUR_KEY>
 
-
 Note: If your login requires CSRF tokens/cookies/session handling, the login POST may need extra headers or cookie capture.
-
 ## 📊 Results Summary (Key Numbers)
 
 ### High-Level
