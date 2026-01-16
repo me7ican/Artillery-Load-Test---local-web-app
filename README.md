@@ -173,32 +173,3 @@ confirm whether the test client follows redirects automatically (can change tota
 Login flow realism depends on your backend:
 
 CSRF protections, sessions, rate limiting, captcha, etc. may require additional scripting.
-
-✅ Recommended Enhancements (If you want a stronger report)
-
-Add checks/assertions
-
-Validate login success via status code, response body, or redirect location.
-
-Add thresholds (SLOs)
-Example:
-
-p95 < 200ms
-
-error rate < 1%
-
-Use realistic test data
-
-Multiple emails/passwords
-
-Random user think times
-
-More endpoints (dashboard, profile, static assets)
-
-📦 Suggested Repo Structure
-.
-├── script.yaml
-├── README.md
-└── reports/
-    ├── artillery-report.pdf
-    └── artillery-metrics.pdf
