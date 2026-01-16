@@ -202,20 +202,3 @@ More endpoints (dashboard, profile, static assets)
 └── reports/
     ├── artillery-report.pdf
     └── artillery-metrics.pdf
-
-
-Optional:
-
-Export screenshots from Artillery Cloud into docs/ and embed them in this README.
-
-🧾 Notes
-
-Results are captured from a local run (localhost), so network latency is minimal.
-
-For more realistic performance, repeat the test in a deployed environment (VM/container/cloud) with monitoring (CPU, memory, DB).
-
-
-If you want, paste your **assignment rubric** (or your written report text), and I’ll tailor this README to match the marking scheme (e.g., “Methodology / Setup / Results / Analysis / Conclusion” headings).
-
-
-::contentReference[oaicite:0]{index=0}
