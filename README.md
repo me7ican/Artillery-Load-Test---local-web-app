@@ -82,17 +82,17 @@ scenarios:
 ▶️ How To Run (Local)
 
 Install Artillery
-
+```yaml
 npm i -g artillery
-
+```
 Run the test
-
+```yaml
 artillery run script.yaml
-
+```
 Run + upload to Artillery Cloud (optional)
-
+```yaml
 artillery run script.yaml --record --key <YOUR_KEY>
-
+```
 Note: If your login requires CSRF tokens/cookies/session handling, the login POST may need extra headers or cookie capture.
 ## 📊 Results Summary (Key Numbers)
 
